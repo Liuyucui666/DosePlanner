@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import sys; sys.path.insert\\(0, '.'\\); from gui.widgets.dose_visualizer import DoseVisualizer; print\\('Import OK'\\)\")"
+    ]
+  }
+}

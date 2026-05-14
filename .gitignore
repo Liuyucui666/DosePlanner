@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 日志文件
+logs/
+*.log
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 数据文件（大型文件）
+data/seeds/*.npy
+data/ct_images/*
+!data/seeds/metadata.json
+!data/seeds/example_seed.npy
+!data/ct_images/example_ct.dcm
+
+# 缓存
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# 打包输出
+*.exe
+*.dmg
+*.app
+*.msi
+
+# 临时文件
+temp/
+tmp/
+*.zip
